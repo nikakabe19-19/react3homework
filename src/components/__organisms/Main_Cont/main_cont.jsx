@@ -1,4 +1,4 @@
-import New_box from "../../__atoms/New_box/New_box";
+import Goodbox from "../../__atoms/Goodbox/Goodbox";
 import SecondBox from "../../__moleculs/SecondBox/SecondBox";
 
 function Main_Cont() {
@@ -6,7 +6,7 @@ function Main_Cont() {
     <>
       <div className="main_cont">
         <SecondBox />
-        <New_box />
+        <Goodbox />
       </div>
     </>
   );
