@@ -6,7 +6,7 @@ import Yellow from "../../../assets/Yellow.svg";
 function New_Box() {
   return (
     <>
-      <div className="new_box">
+      <div className="newj_box">
         <h1 className="header">Summary</h1>
         <div className="reaction_box">
           <div className="react_box">
