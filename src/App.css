@@ -1,0 +1,238 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(236, 242, 255, 1);
+}
+.main_cont {
+  width: 736px;
+  height: 512px;
+
+  display: flex;
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.second_box {
+  width: 368px;
+  height: 512px;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(47, 44, 233, 0.9);
+  gap: 25px;
+}
+.result {
+  width: 125px;
+  font-size: 24px;
+  color: rgba(202, 201, 255, 0.8);
+}
+.oval_box {
+  width: 200px;
+  height: 200px;
+}
+.secoval_box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(37, 33, 201, 0.7);
+  gap: 15px;
+}
+.number_box {
+  width: 81px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  font-size: 72px;
+  color: white;
+}
+.numb_box {
+  color: rgba(202, 201, 255, 0.6);
+  font-size: 18px;
+}
+.great_box {
+  width: 260px;
+  height: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  font-size: 32px;
+  color: white;
+}
+p {
+  color: rgba(202, 201, 255, 1);
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.span_box {
+  display: flex;
+  justify-content: center;
+}
+.new_box {
+  width: 368px;
+  height: 512px;
+  border-top-right-radius: 30px;
+  background-color: white;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  color: rgba(48, 59, 89, 1);
+  width: 288px;
+  font-size: 24px;
+}
+.reaction_box {
+  width: 288px;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.react_box {
+  width: 288px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: rgba(255, 85, 85, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.vector {
+  display: flex;
+  gap: 10px;
+  margin-left: 8px;
+}
+.numero_box {
+  height: 23px;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.num_box {
+  font-size: 20px;
+  color: rgba(48, 59, 89, 0.3);
+}
+.span_2box {
+  font-size: 20px;
+  color: rgba(48, 59, 89, 0.8);
+}
+.memory_box {
+  width: 288px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: rgba(255, 178, 30, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.brain_box {
+  display: flex;
+  gap: 5px;
+  margin-left: 8px;
+}
+.remove_box {
+  display: flex;
+  gap: 5px;
+  margin-left: 8px;
+}
+.eye_box {
+  display: flex;
+  gap: 5px;
+  margin-left: 10px;
+}
+.num1_box {
+  margin-right: 10px;
+  color: rgba(48, 59, 89, 0.3);
+  font-size: 20px;
+}
+.num2_box {
+  margin-right: 10px;
+  color: rgba(48, 59, 89, 0.3);
+  font-size: 20px;
+}
+.num3_box {
+  margin-right: 10px;
+  color: rgba(48, 59, 89, 0.3);
+  font-size: 20px;
+}
+.verbal_box {
+  width: 288px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: rgba(0, 187, 143, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.visual_box {
+  width: 288px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: rgba(17, 37, 214, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.image_box {
+  margin-left: 5px;
+  height: 20px;
+}
+.reac_box {
+  font-size: 20px;
+  color: rgba(255, 85, 85, 0.8);
+}
+.mem_box {
+  font-size: 20px;
+  color: rgba(255, 178, 30, 0.8);
+}
+
+.ver_box {
+  font-size: 20px;
+  color: rgba(0, 187, 143, 0.8);
+}
+.vis_box {
+  color: rgba(17, 37, 214, 0.8);
+  font-size: 20px;
+}
+.last_stop {
+  width: 288px;
+  height: 56px;
+  background-color: rgba(48, 59, 89, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.cont_box {
+  font-size: 20px;
+  color: white;
+}
